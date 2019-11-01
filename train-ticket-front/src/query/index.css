@@ -1,0 +1,71 @@
+html {
+    background: #f5f5f5;
+    color: #333;
+    font-size: 32px;
+}
+
+body,
+ul,
+ol,
+dl,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+figure,
+form,
+fieldset,
+legend,
+input,
+textarea,
+button,
+p,
+blockquote,
+th,
+td,
+pre,
+xmp {
+    margin: 0;
+    padding: 0;
+}
+
+body,
+input,
+textarea,
+button,
+select,
+pre,
+tt,
+code,
+kbd,
+samp,
+optgroup,
+option {
+    line-height: 1.5;
+    font-family: arial, '\5B8B\4F53', '\5FAE\8F6F\96C5\9ED1', verdana, helvetica,
+        sans-serif;
+}
+
+body {
+    min-width: 320px;
+    max-width: 540px;
+    font-size: 16px;
+    margin: 0 auto;
+    padding-top: 44px;
+}
+
+.hidden,
+[hidden] {
+    display: none !important;
+}
+
+::-webkit-input-placeholder {
+    color: #c7ced4;
+}
+
+button {
+    -webkit-appearance: none;
+}

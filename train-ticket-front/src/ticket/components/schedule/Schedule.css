@@ -1,0 +1,96 @@
+.schedule .dialog {
+    position: absolute;
+    left: 30px;
+    right: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+    max-height: 325px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background: #fff;
+    border-radius: 10px;
+    font-size: 14px;
+}
+
+.schedule .dialog h1 {
+    text-align: center;
+    color: #000;
+    padding: 15px 0 15px;
+    font-size: 100%;
+}
+
+.schedule .dialog .head {
+    color: #000;
+    border-bottom: 1px solid #1ba9ba;
+    line-height: 30px;
+    padding-left: 30px;
+    display: flex;
+}
+
+.schedule .dialog .station {
+    flex: 4;
+    text-align: left;
+}
+
+.schedule .dialog .deptime,
+.schedule .dialog .arrtime,
+.schedule .dialog .stoptime {
+    flex: 3;
+    text-align: center;
+}
+
+.schedule .dialog ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.schedule .dialog li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    line-height: 35px;
+}
+
+.schedule .dialog li .icon {
+    float: left;
+    text-align: center;
+    margin-left: 5px;
+    width: 18px;
+    line-height: 18px;
+    color: #c7ced4;
+    border: 1px solid #c7ced4;
+    border-radius: 9px;
+    position: relative;
+    top: 7px;
+    font-size: 12px;
+}
+
+.schedule .dialog li .icon-red {
+    float: left;
+    text-align: center;
+    margin-left: 5px;
+    width: 18px;
+    line-height: 18px;
+    color: #fff;
+    border-radius: 9px;
+    background: #f30;
+    position: relative;
+    top: 7px;
+    font-size: 12px;
+}
+
+.schedule .dialog li .row {
+    margin-left: 30px;
+    border-bottom: 0.5px solid #e1e1e1;
+    color: #000;
+    display: flex;
+}
+
+.schedule .dialog .grey {
+    color: #888 !important;
+}
+
+.schedule .dialog .red {
+    color: #f30 !important;
+}

@@ -1,0 +1,136 @@
+.account {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    height: 50px;
+    z-index: 10;
+    max-width: 540px;
+    background: #fff;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.account .price {
+    margin-left: 10px;
+    position: relative;
+}
+
+.account .price::after {
+    top: 30%;
+    right: -15px;
+    position: absolute;
+    content: '';
+    width: 11px;
+    height: 6px;
+    margin-top: -3px;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAMCAYAAABm+U3GAAAAcUlEQVR42q3OwQmAMAxGYUfpCI7UTXrtFh3NERwhEtCkEsiD6uEdwg8f2UTE6r1nVS3ZXxbDjspd/QtuhnrtKzwm7NSme6zBEd21iDMMqG0BJxhRwBMYUMIDTOgKjugqrkOxAVDE3Sj68TMcgEJuqHkBb2Y4LzT5lxUAAAAASUVORK5CYII=)
+        no-repeat;
+    background-size: 100%;
+}
+
+.account .price.expanded::after {
+    transform: rotateZ(180deg);
+    /*background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAMCAYAAABm+U3GAAAAbUlEQVR42p3OwQnAQAhEUUvZErZMu9jSUkJKMA4kCBEZmMNHmMNDiwhz951d7zWtMmBiWNmdBa6I75+xvo8PRopzFB2YgEdcRQsW8Amd4AHnKHYCDzhBGUzwCeUwwTsqwB1vqA4XTlAFLrxQDj+3MTlro/oAUgAAAABJRU5ErkJggg==) no-repeat;*/
+}
+
+.account .money {
+    line-height: 28px;
+    margin-top: 0;
+    padding-left: 0;
+    font-weight: normal;
+    color: #ff8205;
+    font-family: PingFangSC-Semibold;
+    font-size: 24px;
+    text-align: center;
+    min-width: 48px;
+}
+
+.account .money::before {
+    font-family: PingFangSC-Regular;
+    font-size: 12px;
+    color: #ff8300;
+    text-align: right;
+    line-height: 15px;
+    content: '\FFE5';
+    font-size: 15px;
+}
+
+.account .amount {
+    font-family: PingFangSC-Regular;
+    font-size: 10px;
+    color: #aaa;
+    text-align: center;
+}
+
+.account .button {
+    height: 44px;
+    line-height: 44px;
+    padding: 0 34px;
+    background: #ff8300;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 18px;
+    margin-right: 10px;
+    color: #fff;
+}
+
+.account .layer {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 60px;
+    background: rgba(3, 3, 3, 0.7);
+    z-index: 5;
+}
+
+.account .detail {
+    z-index: 7;
+    position: fixed;
+    background: #fff;
+    left: 0;
+    right: 0;
+    bottom: 60px;
+    padding: 15px 15px 0 15px;
+    border: 0;
+}
+
+.account .detail .title {
+    line-height: 16px;
+    font-size: 16px;
+}
+
+.account .detail ul {
+    list-style: none;
+    margin: 0;
+    padding: 15px 15px 15px 0;
+    border-bottom: 1px solid #dcdfe0;
+}
+
+.account .detail li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    font-size: 14px;
+}
+
+.account .detail li span {
+    display: block;
+}
+
+.account .detail li span:nth-child(n) {
+    width: 50px;
+    text-align: right;
+}
+
+.account .detail li span:nth-child(3n + 1) {
+    flex: 1;
+    text-align: left;
+}
+.account .detail li span:nth-child(3n + 2) {
+    width: 50px;
+    text-align: right;
+}

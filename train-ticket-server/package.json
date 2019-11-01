@@ -1,0 +1,24 @@
+{
+  "name": "imooc-hook-mocker",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "dependencies": {
+    "dayjs": "^1.8.13",
+    "express": "^4.16.4",
+    "mocker-api": "^1.7.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "pm2 start index.js -n mocker",
+    "stop": "pm2 delete mocker"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/yanni4night/imooc-hook-mocker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/yanni4night/imooc-hook-mocker#readme"
+}

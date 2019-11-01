@@ -1,0 +1,136 @@
+.passengers {
+    background: #fff;
+    margin: 10px 0;
+}
+
+.passengers ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.passenger {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    padding-left: 54px;
+    position: relative;
+}
+
+.passenger .delete {
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    margin-top: -9px;
+    width: 18px;
+    height: 18px;
+    line-height: 18px;
+    border-radius: 10px;
+    border: 1px solid red;
+    font-size: 12px;
+    font-style: normal;
+    color: red;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.passenger .items {
+    list-style: none;
+}
+
+.passenger .items .item {
+    position: relative;
+    height: 44px;
+    line-height: 44px;
+    font-size: 0;
+    display: flex;
+    border-bottom: 1px solid #dcdfe0;
+}
+
+.passenger .items .item:last-of-type {
+    border-bottom: 0;
+}
+
+.passenger .items .item label.label {
+    display: inline-block;
+    width: 60px;
+    font-size: 13px;
+}
+
+.passenger .items .item label.ticket-type {
+    width: 70px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 13px;
+    color: #333;
+}
+
+.passenger .items .item label.ticket-type::after {
+    position: absolute;
+    content: '';
+    width: 11px;
+    height: 6px;
+    top: 50%;
+    right: 15px;
+    margin-top: -3px;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAMCAYAAABm+U3GAAAAbUlEQVR42p3OwQnAQAhEUUvZErZMu9jSUkJKMA4kCBEZmMNHmMNDiwhz951d7zWtMmBiWNmdBa6I75+xvo8PRopzFB2YgEdcRQsW8Amd4AHnKHYCDzhBGUzwCeUwwTsqwB1vqA4XTlAFLrxQDj+3MTlro/oAUgAAAABJRU5ErkJggg==)
+        no-repeat;
+    background-size: 100%;
+}
+
+.passenger .items .item .input {
+    margin: 10px auto;
+    height: 24px;
+    line-height: 24px;
+    border: 0;
+    border-left: 1px solid #dcdfe0;
+    text-indent: 10px;
+    flex: 1;
+    order-radius: 0;
+    font-size: 15px;
+    outline: 0;
+}
+
+.passenger .items .item .input.name {
+    padding-right: 70px;
+}
+
+.passenger .items .item.arrow::after {
+    content: '';
+    position: absolute;
+    width: 7px;
+    height: 14px;
+    top: 50%;
+    right: 15px;
+    margin-top: -7px;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAWCAYAAAD0OH0aAAAAr0lEQVR42pXTMQrCQBCF4dUiIIJ4hFzDShQsPIZikyIRPMUKeg2vZSO2UYn15j1IYBnIZqb4psn7IQTivPcLWMEshODGMLhAgLs2+HXBn5Em2ECtjRhMYA0fTcTTR1vxerehwBTxmCIeU8STir7xh4AlB0PRFPYMOg08UsEciih4wzU1PkfjFxz4zDQm05hMY4rHlRgf5Zj6cakZk9OMZdDI8ViwgyectL9oBrlmTC1ZJbyS+BCt4QAAAABJRU5ErkJggg==)
+        no-repeat;
+    background-size: 100%;
+}
+
+.passengers .add {
+    display: flex;
+    position: relative;
+    border-top: 1px solid #dcdfe0;
+    color: #1ba9ba;
+}
+
+.passengers .add .adult {
+    margin: 10px 0;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    font-size: 16px;
+    flex: 1;
+}
+
+.passengers .add .child {
+    margin: 10px 0;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    font-size: 16px;
+    flex: 1;
+    border-left: 1px solid #dcdfe0;
+}

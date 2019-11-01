@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="70" height="40" viewBox="-35,-20,70,40">
+    <defs>
+        <g id="svgArrow" fill="#c7ced4" transform="translate(0,-6)">
+            <rect x="-15" y="-2" width="24" height="4"></rect>
+            <polyline points="9,-6 9,6 16,0"></polyline>
+        </g>
+    </defs>
+    <g id="switchArrow" fill="none" stroke="#c7ced4" transform="scale(.5)">
+        <circle cx="0" cy="0" r="32" stroke-width="3"></circle>
+        <use xlink:href="#svgArrow"></use>
+        <use xlink:href="#svgArrow" transform="rotate(180)"></use>
+    </g> 
+</svg>

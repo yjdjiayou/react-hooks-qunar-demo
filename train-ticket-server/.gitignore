@@ -1,0 +1,10 @@
+*DS_Store
+.idea
+._*
+*.swp
+*.pyc
+node-debug.log
+npm-debug.log
+node_modules
+bower_components
+.svn

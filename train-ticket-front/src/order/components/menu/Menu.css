@@ -1,0 +1,52 @@
+.menu {
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    bottom: 0;
+    transition: all 0.5s;
+    transform: translateY(100%);
+}
+
+.menu.show {
+    transform: translateY(0);
+}
+
+.menu-mask {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #000;
+    opacity: 0;
+    z-index: 999;
+}
+
+.menu-title {
+    height: 40px;
+    border-radius: 10px 10px 0 0;
+    position: relative;
+    background: #1ba9ba;
+}
+
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu ul li {
+    list-style: none;
+    text-align: center;
+    background: #fff;
+    border-bottom: 1px solid #dcdfe0;
+    color: #666;
+    font-size: 16px;
+    line-height: 48px;
+    height: 48px;
+}
+
+.menu ul li.active {
+    color: #1ba9ba;
+}
